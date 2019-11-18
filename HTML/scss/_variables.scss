@@ -1,0 +1,50 @@
+//
+// variables.scss
+//
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+// Color variables
+$white:                     #ffffff;
+
+$primary:                   #4782d3;
+$secondary:                 #f5f5f5;
+$success:                   #28a745;
+$info:                      #17a2b8;
+$warning:                   #ffc107;
+$danger:                    #dc3545;
+$black:                     #000000;
+$dark:                      #161c2d;
+$muted:                     #707070;
+
+//Custom
+$custom:                    #c52c20;
+$body-color:                #161c2d;
+//Overlay
+$overlay:                   rgba(35, 37, 47, 0.7);
+//Gray Color
+$gray-100:                  #f8f9fa;
+$gray-200:                  #e9ecef;
+$gray-300:                  #dee2e6;
+$gray-400:                  #ced4da;
+$gray-500:                  #adb5bd;
+$gray-600:                  #6c757d; 
+$gray-700:                  #495057;
+
+//Color Picker/Switcher
+$purple:                    #662e9b;
+$light-green:               #67c56e;
+$dark-pink:                 #e63254;
+$yellow:                    #f89d36;
+$orange:                    #ea3509;
+$light-yellow:              #eaba6b;
+$magenta:                   #8c2a63;
+
+//Shadow
+$shadow:                      -1px 3px 10px 0 rgba(0, 0, 0, 0.06);
+// Base font
+$font-size-base:              15px;
+
+$font-family-base:            'Poppins', sans-serif;
+$font-family-secondary:       'Poppins', sans-serif;

@@ -1,0 +1,69 @@
+//
+// about.scss
+//
+
+.about-hero {
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        right: 3%;
+        left: 10%;
+        bottom: 0%;
+        border-radius: 5px;
+        border: 16px solid $gray-100;
+    }
+}
+.about-info {
+    .name {
+        font-size: 18px;
+    }
+    .designation {
+        font-size: 16px;
+    }
+    .about-list {
+        line-height: 32px;
+        .list-title {
+            max-width: 110px;
+            width: 100%;
+            font-weight: 500;
+        }
+    }
+}
+
+//Interests
+.interests-desc {
+    transition: all 0.5s ease;
+    border: 2px solid transparent;
+    .hobbies {
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 55px;
+            width: 2px;
+            height: 100%;
+            background: $gray-200;
+            z-index: 1;
+        }
+    }
+    .icon {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        transition: all 0.5s ease;
+    }
+    .title {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    &:hover {
+        background: $white !important;
+        box-shadow: $shadow;
+        border: 2px solid $gray-200;
+        transform: translateY(-5px);
+        .icon {
+            color: $custom;
+        }
+    }
+}

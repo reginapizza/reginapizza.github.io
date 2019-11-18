@@ -1,0 +1,126 @@
+/*!
+ *
+ * Documentation
+ *
+ */
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #666;
+  background-color: #edf0f0;
+  font-size: 16px;
+  line-height: 22px;
+  overflow-x:hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+p {
+  font-family: 'Lato', sans-serif;
+}
+a {
+  color: inherit;
+}
+a:hover,
+a:focus {
+  color: #253138;
+  outline: none;
+  text-decoration: none;
+}
+
+.p-t-20 {
+	padding-top: 2em;
+}
+
+.p-t-50 {
+  padding-top: 5em;
+}
+.list-none {
+  list-style: none;
+}
+
+.navbar-default {
+	border: none;
+  margin-bottom: 0px;
+  background-color: #7578f9;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 0px;
+	padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo {
+	font-weight: 600;
+	font-size: 20px;
+  color: #fff !important;
+}
+
+.bg-dark {
+  background-color: #0c1021;
+}
+
+.copy {
+  padding: 20px 0px 0px 0px;
+}
+
+/* Toggle Styles */
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+
+@media(min-width:768px) {
+  
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+/* right bar */
+.right-bar {
+  background-color: #fff;
+  padding: 10px 30px;
+  margin-top: 20px;
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+  font-weight: 600;
+}
+
+.main-page-header {
+    padding: 30px;
+    background-color: #4a90e2;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px 4px 0 0;
+    margin: -10px -30px;
+    letter-spacing: .8px;
+}
+
+.com-container {
+	padding-bottom: 2em;
+}
+
+#plugin-list li,#plugin-list li a {
+  font-size: 15px;
+}

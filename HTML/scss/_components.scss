@@ -1,0 +1,188 @@
+//
+// components.scss
+//
+//Buttons
+.btn {
+    padding: 12px 24px;
+    outline: none;
+    border-radius: 0;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-weight: 500;
+    &:focus{
+        box-shadow: none !important;
+    }
+    &.btn-sm{
+        padding: 7px 16px;
+        font-size: 10px;
+    }
+    &.btn-lg{
+        padding: 14px 30px;
+        font-size: 16px;
+    } 
+    &.btn-custom {
+        color: $white;
+        background: $custom;
+        &:hover, &:focus, &:active, &.active, &.focus{
+            background-color: $body-color !important;
+            color: $white !important;
+            box-shadow: $shadow !important;
+        }
+    }    
+    &.btn-custom-outline {
+        border: 1px solid $custom;
+        color: $custom;
+        background-color: transparent;    
+        &:hover, &:focus, &:active, &.active, &.focus{
+            background-color: $custom !important;
+            border-color: $custom !important;
+            color: $white !important;
+            box-shadow: $shadow !important;
+        }
+    }    
+    &.btn-outline-white {
+        border: 1px solid $white !important;
+        color: $white;
+        background-color: transparent;    
+        &:hover, &:focus, &:active, &.active, &.focus{
+            background-color: $custom !important;
+            border: 1px solid $custom !important;
+            color: $white !important;
+            box-shadow: $shadow !important;
+        }
+    }
+}
+//Processbar
+.progress-box {
+    .progress {
+        height: 8px;
+        overflow: visible;
+        border: 1px solid $gray-400;
+        .progress-bar {
+            height: 2px;
+            border-radius: 4px;
+            margin: auto 2px;
+            animation: animate-positive 3s;
+        }
+        .progress-value {
+            position: absolute;
+            top: -38px;
+            right: -20px;
+            padding: 5px;
+            font-size: 13px;
+        }
+    }
+    @keyframes animate-positive {
+        0% {
+            width: 0;
+        }
+    }
+}
+//Nav
+.nav-pills {
+    .nav-link{
+        color: $body-color !important;
+        margin: auto 15px;
+        border: 1px solid $gray-200;
+        &.active {
+            background-color: $custom;
+            color: $white !important;
+            border-color: $custom !important;
+            box-shadow: $shadow;
+        }
+    }
+    a {
+        .skill-container {
+            .title {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+//Breadcrumb
+.page-next-level{
+    .title {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+    .page-next {
+        letter-spacing: 0.5px;
+        li {
+            display: inline-block;
+            margin-right: 5px;
+            &:after {
+                content: "\f142";
+                font-size: 16px;
+                color: $dark; 
+                font-family: 'Material Design Icons';
+            }     
+            &:last-child {
+                margin-right: 0;
+                &:after {
+                    display: none;
+                }
+            }       
+            a, span {        
+                font-size: 14px;
+                padding-right: 8px;           
+                transition: all 0.5s ease;
+                font-weight: 600;
+            }
+            a {
+                &:hover {
+                    color: $custom !important;
+                } 
+            }
+            span {
+                &:last-child {
+                    padding-right: 0px;
+                }
+            }
+        }
+    }
+}
+
+//Pagination
+.pagination {    
+    line-height: 20px;
+    font-size: 13px;
+    li {
+        display: inline;
+        &:first-child a {
+            border-left-width: 1px;
+            border-radius: 4px 0 0 4px;
+        } 
+        &:last-child a{
+            border-radius: 0 4px 4px 0;
+        }
+        a {
+            float: left;
+            text-decoration: none;
+            color: $dark;
+            border: 1px solid $gray-300;
+            border-left-width: 0;
+            background: $white; 
+            &:hover {
+                color: $white;
+                background: $custom;
+                border-color: $custom;
+            }
+        }
+    }              
+    .active a {
+        color: $white;
+        background: $custom !important;
+        border-color: $custom;
+        cursor: not-allowed;
+    }
+}
+
+//blockquote
+.blockquote {
+    border-left: 3px solid $gray-300;
+    font-size: 16px;
+}

@@ -1,0 +1,56 @@
+//
+// service.scss
+//
+.service-wrapper {
+    transition: all 0.5s ease;
+    .icon {
+        i {
+            font-size: 40px;
+        }
+    }
+    .content {
+        .title {
+            font-size: 18px;
+            transition: all 0.5s ease;
+        }
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        bottom: 0;
+        display: block;
+        height: 2px;
+        width: 0;
+        transition: 1s;
+        background: $custom;
+    }
+    &:hover {
+        box-shadow: $shadow;
+        border: transparent !important;
+        transform: translateY(-5px);
+        &:after {
+            left: 0;
+            right: 0;
+            width: 100%;
+        }
+        .icon {            
+            animation: mover 1s infinite alternate;
+        }
+        .content {
+            .title {
+                color: $custom;
+            }
+        }
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}

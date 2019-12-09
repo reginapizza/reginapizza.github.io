@@ -20,8 +20,6 @@
     vertical-align: middle;
 }
 .bg-home {
-    background-image: url("../images/red-foliage-frosted.png");
-    background-size: cover;
     height: 100vh;
     @include home-common();
 }

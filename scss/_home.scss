@@ -20,9 +20,9 @@
     vertical-align: middle;
 }
 .bg-home {
-    height: 100vh;    
+    height: 100vh;
     @include home-common();
-}   
+}
 .bg-half {
     height: 90vh;
     @include home-common();
@@ -83,7 +83,7 @@
 	top: 0;
     left: 0;
 	z-index: -1 !important;
-} 
+}
 
 //Creative Home
 .home-shape {
@@ -99,10 +99,10 @@
     }
 }
 @media (min-width: 200px) and (max-width: 767px) {
-    .bg-home, .bg-half {        
+    .bg-home, .bg-half {
         padding: 150px 0;
         height: auto;
-    } 
+    }
     .bg-pages {
         padding: 150px 0 90px;
     }

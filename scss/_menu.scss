@@ -15,7 +15,7 @@
         color: $dark;
         font-size: 30px;
         padding: 0px;
-    }    
+    }
     .navbar-brand {
         margin-right: 0 !important;
         .l-dark {
@@ -36,17 +36,17 @@
                 letter-spacing: 1px;
                 line-height: 24px;
                 text-transform: uppercase;
-                transition: all 0.5s;    
+                transition: all 0.5s;
                 font-family: $font-family-base;
                 &:hover,
                 &:active{
-                    color: $custom;    
+                    color: $dark;
                 }
             }
             &.active .nav-link {
-                color: $custom !important;                
+                color: $custom !important;
             }
-        }   
+        }
         .dropdown-toggle::after {
             content: "\F140";
             font: normal normal normal 24px/1 "Material Design Icons";
@@ -57,7 +57,7 @@
             float: none;
             transform: translateX(-6px) translateY(-1px);
         }
-    
+
         .dropdown {
             position: relative;
             transition: all 0.5s ease;
@@ -94,21 +94,21 @@
                 display: block;
                 }
             }
-        }    
+        }
         &.navbar-nav-link {
             .nav-item {
                 .nav-link {
                     color: $dark;
                     &:hover,
                     &:active{
-                        color: $custom;    
+                        color: $custom;
                     }
                 }
             }
             &.active .nav-link {
-                color: $custom !important;                
+                color: $custom !important;
             }
-        } 
+        }
         .nav-item {
             &:last-child {
                 .nav-link{
@@ -153,7 +153,7 @@
                 display: none;
             }
         }
-        .navbar-nav {            
+        .navbar-nav {
             margin-top: 0px;
             .nav-item {
                 .nav-link {
@@ -169,11 +169,11 @@
                     }
                 }
             }
-        }  
+        }
         &.sticky-light {
             background-color: $white;
         }
-    }  
+    }
     .navbar-brand {
         color: $dark !important;
     }
@@ -238,7 +238,7 @@
         }
     }
 }
-  
+
 //login button
 .login-button {
     color: $white;

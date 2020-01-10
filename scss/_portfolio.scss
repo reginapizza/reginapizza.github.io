@@ -22,6 +22,8 @@
 .portfolio-box {
     .work-img {
         img {
+            height: 18rem;
+            width: 27rem;
             transition: all 2s ease;
         }
         .overlay-work {
@@ -30,11 +32,11 @@
             right: 8px;
             bottom: 8px;
             left: 8px;
-            opacity: 0; 
+            opacity: 0;
             transition: all 0.9s ease;
             transform: scale(0.7);
             background-color: rgba(27, 27, 27, .8);
-            z-index: 1;   
+            z-index: 1;
             .icon {
                 position: absolute;
                 bottom: 50%;

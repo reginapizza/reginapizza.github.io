@@ -1278,8 +1278,11 @@ p {
 
 .portfolio-box .work-img img {
   -webkit-transition: all 2s ease;
+  height: 18rem;
   transition: all 2s ease;
+  width: 27rem;
 }
+
 
 .portfolio-box .work-img .overlay-work {
   position: absolute;

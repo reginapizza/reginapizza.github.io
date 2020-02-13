@@ -1634,4 +1634,8 @@ hr {
   border: 0;
   border-top: 1px solid #495057;
 }
+
+.mobile-screenshot {
+  max-width: 50%;
+}
 /*# sourceMappingURL=style.css.map */
